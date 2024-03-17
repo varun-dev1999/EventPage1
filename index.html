@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Styling the body */
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      /* Styling section, giving background
+      image and dimensions */
+      section {
+        width: 100%;
+        height: 100vh;
+        background: url("1.jpg");
+        background-size: cover;
+      }
+      /* Styling the left floating section */
+      section .leftBox {
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 50px;
+        box-sizing: border-box;
+      }
+      /* Styling the background of
+      left floating section */
+      section .leftBox .content {
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 50px;
+        box-sizing: border-box;
+      }
+      section .leftBox .content1 {
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 40px;
+        transition: 0.5s;
+      }
+      /* Styling the hover effect
+      of left floating section */
+      section .leftBox .content:hover {
+        background: #9acd32;
+      }
+      section .leftBox .content1:hover {
+        background: #9acd32;
+      }
+      /* Styling the header of left
+      floating section */
+      section .leftBox .content h1 {
+        font-size: 50px;
+        text-transform: uppercase;
+      }
+      /* Styling the three events section */
+      section .events {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        float: right;
+        box-sizing: border-box;
+      }
+      /* Styling the links of
+      the events section */
+      section .events ul {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+        padding: 40px;
+        box-sizing: border-box;
+      }
+      /* Styling the lists of the event section */
+      section .events ul li {
+        list-style: none;
+        background: #fff;
+        box-sizing: border-box;
+        height: 200px;
+        margin: 15px 0;
+      }
+      /* Styling the time class of events section */
+      section .events ul li .time {
+        position: relative;
+        padding: 20px;
+        background: #262626;
+        box-sizing: border-box;
+        width: 30%;
+        height: 100%;
+        float: left;
+        text-align: center;
+        transition: 0.5s;
+      }
+      /* Styling the hover effect
+      of events section */
+      section .events ul li:hover .time {
+        background: #9acd32;
+      }
+      /* Styling the header of time
+      class of events section */
+      section .events ul li .time h2 {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 60px;
+        line-height: 30px;
+      }
+      /* Styling the texts of time
+      class of events section */
+      section .events ul li .time h2 span {
+        font-size: 30px;
+      }
+      /* Styling the details
+      class of events section */
+      section .events ul li .details {
+        padding: 20px;
+        background: #fff;
+        box-sizing: border-box;
+        width: 70%;
+        height: 100%;
+        float: left;
+      }
+      /* Styling the header of the
+      details class of events section */
+      section .events ul li .details h3 {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        font-size: 22px;
+      }
+      /* Styling the lists of details
+      class of events section */
+      section .events ul li .details p {
+        position: relative;
+        margin: 10px 0 0;
+        padding: 0;
+        font-size: 16px;
+      }
+      /* Styling the links of details
+      class of events section */
+      section .events ul li .details a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 15px;
+        border: 1.5px solid #262626;
+        margin-top: 8px;
+        font-size: 18px;
+        transition: 0.5s;
+      }
+      /* Styling the details class's hover effect */
+      section .events ul li .details a:hover {
+        background: #e91e63;
+        color: #fff;
+        border-color: #e91e63;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="leftBox">
+        <div class="content">
+          <h2>Event: Inernational conference on Artificial intelligence</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos
+            commodi laboriosam nesciunt asperiores reiciendis saepe aspernatur
+            voluptatum officia consequatur hic autem dolores quis, cum quisquam
+            sit mollitia dolorem adipisci provident molestias doloribus soluta
+            ex magni accusantium! Illum dolor exercitationem maiores vitae
+            earum. Praesentium perferendis consectetur fugiat suscipit eum,
+            doloribus sapiente voluptatem consequuntur amet asperiores impedit
+            aperiam minima ea sed repellat deleniti dolor voluptate odio
+            consequatur? Temporibus quibusdam sunt aut vero voluptatum impedit
+            porro mollitia molestiae, vel exercitationem odit nam! Tenetur
+            sapiente odit consequatur, blanditiis non labore delectus? Illo
+            voluptatum quos inventore delectus voluptatem minus! Quas possimus
+            odio ducimus libero provident?
+          </p>
+        </div>
+        <br />
+        <div class="content1">
+          <h2>Created By varun</h2>
+          <p>
+            <u><i>varundev@gmail.com</i></u>
+          </p>
+        </div>
+      </div>
+      <div class="events">
+        <ul>
+          <li>
+            <div class="time">
+              <h2>
+                16
+                <br /><span>March</span><br /><span>Karnataka</span>
+              </h2>
+            </div>
+            <div class="details">
+              <h3>Where is the event happening?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptatibus, ducimus nesciunt corporis accusantium nam
+                consectetur in consequuntur praesentium autem unde illum velit,
+                minima voluptate numquam beatae rem amet deserunt mollitia?
+              </p>
+              <a href="#">View Details</a>
+            </div>
+            <div style="clear: both"></div>
+          </li>
+          <li>
+            <div class="time">
+              <h2>
+                17
+                <br /><span>May</span><br /><span>Delhi</span>
+              </h2>
+            </div>
+            <div class="details">
+              <h3>Where is the event happening?</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quaerat voluptate maxime dolorem, non reprehenderit mollitia
+                omnis odit rem atque libero aliquam similique cumque ipsum
+                numquam velit nihil quo tenetur temporibus!
+              </p>
+              <a href="#">View Details</a>
+            </div>
+            <div style="clear: both"></div>
+          </li>
+          <li>
+            <div class="time">
+              <h2>
+                18
+                <br /><span>August</span><br /><span>Karnataka</span>
+              </h2>
+            </div>
+            <div class="details">
+              <h3>Where is the event happening?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                ea quidem incidunt itaque doloribus, libero magnam deleniti
+                totam dolorum tempore eligendi placeat autem cumque hic
+                excepturi, saepe maxime distinctio ducimus?
+              </p>
+              <a href="#">View Details</a>
+            </div>
+            <div style="clear: both"></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
